@@ -19,4 +19,4 @@ var usuarioSchema = new Schema({
 
 usuarioSchema.plugin(uniqueValidator, { message: 'El Correo debe de ser unico' });
 
-module.exports = mongoose.model('usuarios', usuarioSchema);
+module.exports = mongoose.model('Usuario', usuarioSchema);
